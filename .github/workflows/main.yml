@@ -2,6 +2,7 @@ name: Deploy React App
 on:
   push:
     branches: ["main"] # Tự động chạy khi bạn push code lên nhánh main
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
